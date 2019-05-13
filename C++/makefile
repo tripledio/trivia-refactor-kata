@@ -1,7 +1,7 @@
 FILES = GameRunner.cpp Game.cpp Game.h
 TEST_FILES = Game.cpp Game.h
 CC = g++
-OPTS = -std=c++17 -Wall -Wextra
+OPTS = -std=c++17 -Wall -Wextra -Werror
 OUTOPTS = -o 
 OUT = out/trivia
 TEST_OUT = out/trivia_tests
