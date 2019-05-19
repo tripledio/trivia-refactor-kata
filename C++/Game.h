@@ -21,7 +21,7 @@ class Game{
 			list<string> sportsQuestions;
 			list<string> rockQuestions;
 
-			int currentPlayer;
+			unsigned int currentPlayer;
 			bool isGettingOutOfPenaltyBox;
 
 public:

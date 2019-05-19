@@ -6,10 +6,9 @@
 
 using namespace std;
 
-Game::Game() : currentPlayer(0), places({}), purses({}){
+Game::Game() : places{}, purses{}, currentPlayer(0){
 	for (int i = 0; i < 50; i++)
 	{
-
 		ostringstream oss (ostringstream::out);
 		oss << "Pop Question " << i;
 
