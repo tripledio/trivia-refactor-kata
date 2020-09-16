@@ -2,3 +2,6 @@
 *.suo
 *.csproj.user
 .vs/
+obj
+bin
+.idea
