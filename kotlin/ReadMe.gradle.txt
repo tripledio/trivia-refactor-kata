@@ -2,6 +2,6 @@
 - install Gradle from http://www.gradle.org/downloads
 
 - commands:
-	gradle clean
-	gradle build 
+	./gradlew clean - or: gradlew.bat clean
+	./gradlew build - or: gradlew.bat build
 		- see ~/build/classes/main for JVM class files
