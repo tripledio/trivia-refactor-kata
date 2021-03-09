@@ -3,18 +3,18 @@ package com.adaptionsoft.games.uglytrivia
 import java.util.*
 
 class Game {
-    var players = ArrayList<Any>()
-    var places = IntArray(6)
-    var purses = IntArray(6)
-    var inPenaltyBox = BooleanArray(6)
+    internal var players = ArrayList<Any>()
+    internal var places = IntArray(6)
+    internal var purses = IntArray(6)
+    internal var inPenaltyBox = BooleanArray(6)
 
-    var popQuestions = LinkedList<Any>()
-    var scienceQuestions = LinkedList<Any>()
-    var sportsQuestions = LinkedList<Any>()
-    var rockQuestions = LinkedList<Any>()
+    internal var popQuestions = LinkedList<Any>()
+    internal var scienceQuestions = LinkedList<Any>()
+    internal var sportsQuestions = LinkedList<Any>()
+    internal var rockQuestions = LinkedList<Any>()
 
-    var currentPlayer = 0
-    var isGettingOutOfPenaltyBox: Boolean = false
+    internal var currentPlayer = 0
+    internal var isGettingOutOfPenaltyBox: Boolean = false
 
     init {
         for (i in 0..49) {
