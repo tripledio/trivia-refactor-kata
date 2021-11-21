@@ -1,13 +1,14 @@
 package com.adaptionsoft.games.trivia;
 
-import static org.junit.Assert.*;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.fail;
 
 public class SomeTest {
 
-	@Test
-	public void true_is_true() throws Exception {
-		assertTrue(false);
-	}
+    @Test
+    public void true_is_true() throws Exception {
+        fail();
+    }
 }
