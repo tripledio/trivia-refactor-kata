@@ -1,5 +1,5 @@
 plugins {
-    id "org.jetbrains.kotlin.jvm" version "1.4.21"
+    id "org.jetbrains.kotlin.jvm" version "1.6.0"
 }
 
 repositories {
@@ -7,9 +7,13 @@ repositories {
 }
 
 dependencies {
-    testImplementation "org.junit.jupiter:junit-jupiter:5.7.0"
+    testImplementation(platform('org.junit:junit-bom:5.8.1'))
+    testImplementation('org.junit.jupiter:junit-jupiter:5.8.1')
 }
 
-tasks.test {
+test {
     useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
 }
