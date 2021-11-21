@@ -1,5 +1,5 @@
-
-- install Gradle from http://www.gradle.org/downloads
+The gradle wrapper automatically installs the correct gradle version.
+Manually install Gradle from http://www.gradle.org/downloads
 
 - commands:
 	./gradlew clean - or: gradlew.bat clean
