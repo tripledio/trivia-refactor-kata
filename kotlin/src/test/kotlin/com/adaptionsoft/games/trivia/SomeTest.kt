@@ -8,6 +8,6 @@ class SomeTest {
 
     @Test
     fun true_is_true() {
-        assertTrue(false)
+        assertTrue(true)
     }
 }
