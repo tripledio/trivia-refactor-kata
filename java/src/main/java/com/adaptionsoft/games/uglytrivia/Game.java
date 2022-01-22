@@ -95,13 +95,13 @@ public class Game {
 
 	private void askQuestion() {
 		if (currentCategory() == "Pop")
-			System.out.println(popQuestions.removeFirst());
+			systemPresenter.present(popQuestions.removeFirst().toString());
 		if (currentCategory() == "Science")
-			System.out.println(scienceQuestions.removeFirst());
+			systemPresenter.present(scienceQuestions.removeFirst().toString());
 		if (currentCategory() == "Sports")
-			System.out.println(sportsQuestions.removeFirst());
+			systemPresenter.present(sportsQuestions.removeFirst().toString());
 		if (currentCategory() == "Rock")
-			System.out.println(rockQuestions.removeFirst());		
+			systemPresenter.present(rockQuestions.removeFirst().toString());
 	}
 	
 	
