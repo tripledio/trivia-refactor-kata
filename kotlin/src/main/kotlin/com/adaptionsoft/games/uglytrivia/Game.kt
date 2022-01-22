@@ -92,13 +92,13 @@ class Game(internal var presenter: Presenter = SystemPresenter()) {
 
     private fun askQuestion() {
         if (currentCategory() === "Pop")
-            println(popQuestions.removeFirst())
+            presenter.present(popQuestions.removeFirst().toString())
         if (currentCategory() === "Science")
-            println(scienceQuestions.removeFirst())
+            presenter.present(scienceQuestions.removeFirst().toString())
         if (currentCategory() === "Sports")
-            println(sportsQuestions.removeFirst())
+            presenter.present(sportsQuestions.removeFirst().toString())
         if (currentCategory() === "Rock")
-            println(rockQuestions.removeFirst())
+            presenter.present(rockQuestions.removeFirst().toString())
     }
 
     private fun currentCategory(): String {
