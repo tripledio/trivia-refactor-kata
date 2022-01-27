@@ -5,18 +5,28 @@
     <artifactId>uglytrivia</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>5.8.2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.1</version>
+            <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.approvaltests</groupId>
             <artifactId>approvaltests</artifactId>
-            <version>12.3.1</version>
+            <version>13.2.1</version>
         </dependency>
     </dependencies>
 
@@ -34,7 +44,12 @@
                 </configuration>
             </plugin>
 
-        </plugins>
 
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+
+        </plugins>
     </build>
 </project>
