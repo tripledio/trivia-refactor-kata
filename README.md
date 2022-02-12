@@ -1,7 +1,15 @@
-Legacy Code Retreat code base
-======
+Refactor Kata
+==============
 
-Use this code base to run your own [Legacy Code Retreat](http://legacycoderetreat.jbrains.ca).
+This code base is a fork from [CaraDojo](https://github.com/caradojo/trivia) and [J. B. Rainsberger](https://github.com/jbrains/trivia) Legacy Code retreat trivia.
 
-As of this writing, there isn't really a single place to get all the information you might want about Legacy Code Retreat. Search the web and ask your colleagues. Most importantly, don't panic! If you've been to Code Retreat even once, then you know most of what you need to run a Legacy Code Retreat. Give it a try!
+## Refactor guarded by Approval tests
 
+The Branch Approval test has added ApprovalTests for the kata under 
++ java
++ kotlin
++ typescript
+
+with optional TCR scripts.
+
+Using the kata with these test in place is ideal for practicing pure refactors. Can you refactor the code without the tests ever breaking? Can you use the TCR scripts?
