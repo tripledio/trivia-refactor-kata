@@ -1,6 +1,7 @@
 import {Game} from "../src/game";
 import Presenter from "../src/presenter";
 import seedrandom from "seedrandom";
+import { EOL } from "os";
 
 class BufferedPresenter implements Presenter {
     private messages: string[] = [];
@@ -68,7 +69,7 @@ export default class ApprovalGameRunner {
     }
 
     private gatherGameOutput(): string {
-        return this.presenter.bufferedMessages.join('\n')
+        return this.presenter.bufferedMessages.join(EOL)
     }
 
 }
