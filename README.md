@@ -1,7 +1,10 @@
-Legacy Code Retreat code base
-======
+Trivia Refactor Kata
+========================
 
-Use this code base to run your own [Legacy Code Retreat](http://legacycoderetreat.jbrains.ca).
+# Acknowledgement 
 
-As of this writing, there isn't really a single place to get all the information you might want about Legacy Code Retreat. Search the web and ask your colleagues. Most importantly, don't panic! If you've been to Code Retreat even once, then you know most of what you need to run a Legacy Code Retreat. Give it a try!
+This code base is a fork from [CaraDojo](https://github.com/caradojo/trivia) and [J. B. Rainsberger](https://github.com/jbrains/trivia) Legacy Code retreat trivia.
 
+## Refactor 
+
+The repository here has been modified from the original to have the latest versions. So it is less suited for a legacy code retreat and more intended as a pure refactor kata.
