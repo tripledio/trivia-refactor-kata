@@ -8,7 +8,7 @@ namespace Trivia
 
         public static void Main(string[] args)
         {
-            var aGame = new Game();
+            var aGame = new Game(new ConsolePresenter());
 
             aGame.Add("Chet");
             aGame.Add("Pat");
