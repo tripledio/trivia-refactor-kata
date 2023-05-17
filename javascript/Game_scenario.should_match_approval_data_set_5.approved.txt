@@ -1,0 +1,155 @@
+Jan was added
+They are player number 1
+Piet was added
+They are player number 2
+Joris was added
+They are player number 3
+Korneel was added
+They are player number 4
+Jan is the current player
+They have rolled a 2
+Jan's new location is 2
+The category is Sports
+Sports Question 0
+Answer was correct!!!!
+Jan now has 1 Gold Coins.
+Piet is the current player
+They have rolled a 6
+Piet's new location is 6
+The category is Sports
+Sports Question 1
+Answer was correct!!!!
+Piet now has 1 Gold Coins.
+Joris is the current player
+They have rolled a 6
+Joris's new location is 6
+The category is Sports
+Sports Question 2
+Answer was correct!!!!
+Joris now has 1 Gold Coins.
+Korneel is the current player
+They have rolled a 5
+Korneel's new location is 5
+The category is Science
+Science Question 0
+Answer was correct!!!!
+Korneel now has 1 Gold Coins.
+Jan is the current player
+They have rolled a 1
+Jan's new location is 3
+The category is Rock
+Rock Question 0
+Answer was correct!!!!
+Jan now has 2 Gold Coins.
+Piet is the current player
+They have rolled a 1
+Piet's new location is 7
+The category is Rock
+Rock Question 1
+Answer was correct!!!!
+Piet now has 2 Gold Coins.
+Joris is the current player
+They have rolled a 2
+Joris's new location is 8
+The category is Pop
+Pop Question 0
+Answer was correct!!!!
+Joris now has 2 Gold Coins.
+Korneel is the current player
+They have rolled a 5
+Korneel's new location is 10
+The category is Sports
+Sports Question 3
+Answer was correct!!!!
+Korneel now has 2 Gold Coins.
+Jan is the current player
+They have rolled a 5
+Jan's new location is 8
+The category is Pop
+Pop Question 1
+Answer was correct!!!!
+Jan now has 3 Gold Coins.
+Piet is the current player
+They have rolled a 2
+Piet's new location is 9
+The category is Science
+Science Question 1
+Answer was correct!!!!
+Piet now has 3 Gold Coins.
+Joris is the current player
+They have rolled a 5
+Joris's new location is 1
+The category is Science
+Science Question 2
+Answer was correct!!!!
+Joris now has 3 Gold Coins.
+Korneel is the current player
+They have rolled a 1
+Korneel's new location is 11
+The category is Rock
+Rock Question 2
+Answer was correct!!!!
+Korneel now has 3 Gold Coins.
+Jan is the current player
+They have rolled a 4
+Jan's new location is 0
+The category is Pop
+Pop Question 2
+Answer was correct!!!!
+Jan now has 4 Gold Coins.
+Piet is the current player
+They have rolled a 6
+Piet's new location is 3
+The category is Rock
+Rock Question 3
+Answer was correct!!!!
+Piet now has 4 Gold Coins.
+Joris is the current player
+They have rolled a 4
+Joris's new location is 5
+The category is Science
+Science Question 3
+Answer was correct!!!!
+Joris now has 4 Gold Coins.
+Korneel is the current player
+They have rolled a 4
+Korneel's new location is 3
+The category is Rock
+Rock Question 4
+Answer was correct!!!!
+Korneel now has 4 Gold Coins.
+Jan is the current player
+They have rolled a 3
+Jan's new location is 3
+The category is Rock
+Rock Question 5
+Answer was correct!!!!
+Jan now has 5 Gold Coins.
+Piet is the current player
+They have rolled a 6
+Piet's new location is 9
+The category is Science
+Science Question 4
+Answer was correct!!!!
+Piet now has 5 Gold Coins.
+Joris is the current player
+They have rolled a 4
+Joris's new location is 9
+The category is Science
+Science Question 5
+Answer was correct!!!!
+Joris now has 5 Gold Coins.
+Korneel is the current player
+They have rolled a 1
+Korneel's new location is 4
+The category is Pop
+Pop Question 3
+Answer was correct!!!!
+Korneel now has 5 Gold Coins.
+Jan is the current player
+They have rolled a 6
+Jan's new location is 9
+The category is Science
+Science Question 6
+Answer was correct!!!!
+Jan now has 6 Gold Coins.

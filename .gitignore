@@ -7,3 +7,6 @@ java/.idea/
 
 typescript/.idea/
 .idea/
+javascript/node_modules/.bin/
+
+javascript/node_modules/

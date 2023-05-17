@@ -1,12 +1,12 @@
 Test with node.js
 =====================
 
-Install the jasmine-node plugin from https://github.com/mhevery/jasmine-node
+Install the necessary dependencies specified in the package.json
 
-	npm install jasmine-node -g
+    npm install
 
-And execute:
+And execute the test script:
 
-	jasmine-node .
+	npm test
 
-Any test source matching the pattern *.spec.js will be executed.
+The prepared approval tests will be executed. 
