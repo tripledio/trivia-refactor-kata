@@ -10,3 +10,5 @@ typescript/.idea/
 javascript/node_modules/.bin/
 
 javascript/node_modules/
+php
+*.cache

@@ -4,7 +4,7 @@ include __DIR__.'/Game.php';
 
 $notAWinner;
 
-  $aGame = new Game();
+  $aGame = new Game( new EchoPresenter());
   
   $aGame->add("Chet");
   $aGame->add("Pat");
@@ -24,4 +24,5 @@ $notAWinner;
     
     
   } while ($notAWinner);
-  
+
+
