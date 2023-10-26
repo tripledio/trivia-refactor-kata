@@ -13,3 +13,5 @@ javascript/node_modules/
 
 php/.phpunit.result.cache
 php/vendor
+
+.DS_Store

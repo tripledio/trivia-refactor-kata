@@ -20,6 +20,18 @@ Not all code options have their versions updated to a more recent version. Not a
 + Typescript
 + C#
 + NodeJS
++ PHP
+
+## TCR: Test Commit Revert Scripts
+
+The approval test have scripts added for tcr. Simply run
+
+```
+./tcr 
+```
+
+will run the tests, including the approval tests. If the test pass then a commit is done with the default message "WIP" and push to the remote. If the test fail, the changes made are deleted.
+
 
 ![Trivial pursuit](./pictures/trivial_pursuit_board_game.jpg)
 
