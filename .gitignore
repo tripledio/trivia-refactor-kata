@@ -10,3 +10,6 @@ typescript/.idea/
 .idea/
 
 javascript/node_modules/
+
+php/.phpunit.result.cache
+php/vendor
