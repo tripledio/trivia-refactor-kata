@@ -1,0 +1,16 @@
+{
+    "name": "triple.d/trivia-refactoring-kata",
+    "description": "A kata to practice refactoring",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "approvals/approval-tests": "dev-Main",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "tests": "phpunit",
+        "test-coverage": "phpunit --coverage-html build/coverage"
+    }
+}
