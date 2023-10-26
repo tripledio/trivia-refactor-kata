@@ -12,3 +12,5 @@ javascript/node_modules/.bin/
 javascript/node_modules/
 php/vendor
 *.cache
+
+.DS_Store
